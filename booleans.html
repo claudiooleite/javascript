@@ -9,9 +9,27 @@
 
     <script>
 
-        const birthday = '18.04.1982';
-        const age = someCode (birthday);
-        alert (birthday);
+    
+     let userName = prompt ('Who is there?', '');
+
+     if (userName === 'Admin') {
+
+        let pass = prompt ('Password')
+
+
+        if (pass ==='TheMaster') {
+            alert('Welcome!');
+        } else if (pass === '' || pass === null) {
+            alert('so wrong');
+        } else {
+            alert('At least try');
+        }
+
+    }
+    
+
+        
+
 
     </script>
     
